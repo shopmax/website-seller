@@ -1,0 +1,17 @@
+Index: hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml
+===================================================================
+--- hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml	(revision 97)
++++ hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml	(working copy)
+@@ -20,8 +20,8 @@
+ 
+ <entity-engine-xml>
+     <WebSite webSiteId="SHOPMAX_SELLER" siteName="ShopMax Seller Web Site"
+-        httpHost="shopmaxseller.localhost" httpPort="8080"
+-        httpsHost="shopmaxseller.localhost" httpsPort="8443"
+-        standardContentPrefix="http://shopmaxsellerbackend.localhost:8080"
+-        secureContentPrefix="https://shopmaxsellerbackend.localhost:8443"/>
++        httpHost="shopmaxseller.ofbizdemo.com" httpPort="80"
++        httpsHost="shopmaxseller.ofbizdemo.com" httpsPort="443"
++        standardContentPrefix="http://shopmaxsellerbackend.ofbizdemo.com"
++        secureContentPrefix="https://shopmaxsellerbackend.ofbizdemo.com"/>
+ </entity-engine-xml>
