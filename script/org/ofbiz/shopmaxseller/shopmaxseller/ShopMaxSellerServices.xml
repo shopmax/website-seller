@@ -21,6 +21,16 @@ under the License.
 <simple-methods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/simple-methods-v2.xsd">
 
+    <simple-method method-name="checkPermissionCreateCatalogAndCategory" short-description="Check Permission to Create Catalog and Category" login-required="false">
+        <set field="tenantId" value="${groovy:delegator.getDelegatorTenantId();}"/>
+        <if-compare operator="not-equals" value="default" field="tenantId">
+            <add-error>
+                <fail-message message="Can't create Catalog and Category"/>
+            </add-error>
+            <check-errors/>
+        </if-compare>
+    </simple-method>
+    
     <simple-method method-name="createProductToShopMax" short-description="Create Product To ShopMax">
         <entity-one entity-name="Product" value-field="product">
             <field-map field-name="productId" from-field="parameters.productId"/>

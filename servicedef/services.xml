@@ -24,6 +24,11 @@ under the License.
     <vendor></vendor>
     <version>1.0</version>
 
+    <service name="checkPermissionCreateCatalogAndCategory" engine="simple" location="component://shopmax/script/org/ofbiz/shopmax/shopmax/ShopMaxServices.xml"
+        invoke="checkPermissionCreateCatalogAndCategory" auth="true">
+        <description>Check Permission to Create Catalog and Category</description>
+    </service>
+    
     <service name="createProductToShopMax" engine="simple" 
             location="component://shopmaxseller/script/org/ofbiz/shopmaxseller/shopmaxseller/ShopMaxSellerServices.xml" invoke="createProductToShopMax" auth="true">
         <description>Create Product To ShopMax</description>
