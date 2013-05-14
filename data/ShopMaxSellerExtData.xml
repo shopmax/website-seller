@@ -31,7 +31,29 @@ under the License.
     <PartyRole partyId="SHOPMAX_SELLER" roleTypeId="INTERNAL_ORGANIZATIO"/>
     <PartyRole partyId="SHOPMAX_SELLER" roleTypeId="CARRIER"/>
     <PartyRole partyId="SHOPMAX_SELLER" roleTypeId="ACCOUNT"/>
+    <PartyRole partyId="SHOPMAX_SELLER" roleTypeId="SELLER"/>
+    <PartyRole partyId="SHOPMAX_SELLER" roleTypeId="SUPPLIER"/>
     <PartyRole partyId="SHOPMAX_SELLER" roleTypeId="_NA_"/>
+    <ContactMech contactMechId="SELLER_EMAIL" contactMechTypeId="EMAIL_ADDRESS" infoString="ofbiztest@example.com"/>
+    <PartyContactMech partyId="SHOPMAX_SELLER" contactMechId="SELLER_EMAIL" fromDate="2013-04-01 00:00:00" allowSolicitation="Y"/>
+    <PartyContactMechPurpose partyId="SHOPMAX_SELLER" contactMechId="SELLER_EMAIL" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2013-04-01 00:00:00"/>
+    <ContactMech contactMechId="SELLER_ADDRESS" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PartyContactMech partyId="SHOPMAX_SELLER" contactMechId="SELLER_ADDRESS" fromDate="2013-04-01 00:00:00" allowSolicitation="Y"/>
+    <PostalAddress contactMechId="SELLER_ADDRESS" toName="Shopmax Seller Company" address1="777 Factory Blvd" city="City of Seller" postalCode="90000" countryGeoId="USA" stateProvinceGeoId="CA"/>
+    <PartyContactMechPurpose partyId="SHOPMAX_SELLER" contactMechId="SELLER_ADDRESS" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2013-04-01 00:00:00"/>
+    <PartyContactMechPurpose partyId="SHOPMAX_SELLER" contactMechId="SELLER_ADDRESS" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2013-04-01 00:00:00"/>
+    <PartyContactMechPurpose partyId="SHOPMAX_SELLER" contactMechId="SELLER_ADDRESS" contactMechPurposeTypeId="PAYMENT_LOCATION" fromDate="2013-04-01 00:00:00"/>
+    
+    <Party partyId="DemoSeller" partyTypeId="PERSON"/>
+    <Person partyId="DemoSeller" firstName="Demo" lastName="Seller"/>
+    <UserLogin partyId="DemoSeller" userLoginId="DemoSeller" currentPassword="{SHA}47b56994cbc2b6d10aa1be30f70165adb305a41a"/>
+    <PartyRole partyId="DemoSeller" roleTypeId="CUSTOMER"/>
+    <PartyRole partyId="DemoSeller" roleTypeId="SELLER"/>
+    <PartyRole partyId="DemoSeller" roleTypeId="BUYER"/>
+    <PartyRole partyId="DemoSeller" roleTypeId="EMPLOYEE"/>
+    <UserLoginSecurityGroup groupId="SHOPMAX_SELLER" userLoginId="DemoSeller" fromDate="2013-04-01 00:00:00"/>
+    
+    <PartyRelationship partyIdFrom="SHOPMAX_SELLER" partyIdTo="DemoSeller" partyRelationshipTypeId="EMPLOYMENT" roleTypeIdFrom="INTERNAL_ORGANIZATIO" roleTypeIdTo="EMPLOYEE" fromDate="2013-04-01 00:00:00"/>
     
     <Facility facilityId="SellerWarehouse" facilityTypeId="WAREHOUSE" facilityName="ShopMax Seller" description="Warehouse exclusively for the Web Store " ownerPartyId="SHOPMAX_SELLER" defaultInventoryItemTypeId="NON_SERIAL_INV_ITEM" defaultWeightUomId="WT_lb" defaultDaysToShip="25"/>
     
