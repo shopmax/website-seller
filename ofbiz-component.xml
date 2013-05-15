@@ -58,8 +58,8 @@ under the License.
         server="default-server"
         location="webapp/shopmaxseller"
         base-permission=""
-        mount-point="/">
-        <virtual-host host-name="shopmaxseller.localhost"/>
-        <virtual-host host-name="shopmaxseller.ofbizdemo.com"/>
+        mount-point="/shop">
+        <!-- <virtual-host host-name="tommy.shopmax.localhost"/>
+        <virtual-host host-name="shopmaxseller.ofbizdemo.com"/> -->
     </webapp>
 </ofbiz-component>
