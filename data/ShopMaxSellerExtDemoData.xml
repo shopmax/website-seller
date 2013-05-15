@@ -26,10 +26,4 @@ under the License.
     <ProductCategory productCategoryId="SHOPMAX_BROWSE_ROOT" productCategoryTypeId="CATALOG_CATEGORY" categoryName="ShopMax Browse Root" longDescription="ShopMax Catalog Primary Browse Root Category"/>
     
     <ProdCatalogCategory prodCatalogId="SHOPMAX_CATALOG" productCategoryId="SHOPMAX_BROWSE_ROOT" fromDate="2013-04-01 00:00:00" sequenceNum="1" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT"/>
-    
-    <ProductCategory productCategoryId="DEMO_CATEGORY1" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="SHOPMAX_BROWSE_ROOT" categoryName="Demo Category 1" longDescription="Demo Category 1"/>
-    <ProductCategory productCategoryId="DEMO_CATEGORY2" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="SHOPMAX_BROWSE_ROOT" categoryName="Demo Category 2" longDescription="Demo Category 2"/>
-    
-    <ProductCategoryRollup productCategoryId="DEMO_CATEGORY1" parentProductCategoryId="SHOPMAX_BROWSE_ROOT" fromDate="2013-04-01 00:00:00" sequenceNum="1"/>
-    <ProductCategoryRollup productCategoryId="DEMO_CATEGORY2" parentProductCategoryId="SHOPMAX_BROWSE_ROOT" fromDate="2013-04-01 00:00:00" sequenceNum="2"/>
 </entity-engine-xml>
