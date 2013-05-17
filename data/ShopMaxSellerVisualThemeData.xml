@@ -19,13 +19,5 @@ under the License.
 -->
 
 <entity-engine-xml>
-    <VisualThemeSet visualThemeSetId="SHOPMAX" description="Themes to be used for Shop Max Website"/>
-    <VisualTheme visualThemeId="SHOPMAX_THEME" visualThemeSetId="SHOPMAX" description="Shop Max Layout"/>
-    <VisualThemeResource visualThemeId="SHOPMAX_THEME" resourceTypeEnumId="VT_SHORTCUT_ICON" resourceValue="/shopmax-default/img/favicon.ico" sequenceId="01"/>
-    <VisualThemeResource visualThemeId="SHOPMAX_THEME" resourceTypeEnumId="VT_STYLESHEET" resourceValue="/shopmax-default/css/bootstrap.css" sequenceId="02"/>
-    <VisualThemeResource visualThemeId="SHOPMAX_THEME" resourceTypeEnumId="VT_STYLESHEET" resourceValue="/shopmax-default/css/bootstrap-responsive.css" sequenceId="03"/>
-    <VisualThemeResource visualThemeId="SHOPMAX_THEME" resourceTypeEnumId="VT_STYLESHEET" resourceValue="/shopmax-default/js/vendor/chosen.css" sequenceId="04"/>
-    <VisualThemeResource visualThemeId="SHOPMAX_THEME" resourceTypeEnumId="VT_STYLESHEET" resourceValue="/shopmax-default/css/main.css" sequenceId="05"/>
-    <VisualThemeResource visualThemeId="SHOPMAX_THEME" resourceTypeEnumId="VT_STYLESHEET" resourceValue="/shopmax-default/js/fancybox/source/jquery.fancybox.css" sequenceId="06"/>
-    <VisualThemeResource visualThemeId="SHOPMAX_THEME" resourceTypeEnumId="VT_STYLESHEET" resourceValue="/shopmax-default/css/anythingslider.css" sequenceId="07"/>
+
 </entity-engine-xml>

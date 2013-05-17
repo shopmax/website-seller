@@ -34,7 +34,7 @@ under the License.
 
     <!-- entity resources: model(s), eca(s), group, and data definitions -->
     <entity-resource type="model" reader-name="main" loader="main" location="entitydef/entitymodel.xml"/>
-    <!-- <entity-resource type="eca" reader-name="main" loader="main" location="entitydef/eecas.xml"/> -->
+    <entity-resource type="eca" reader-name="main" loader="main" location="entitydef/eecas.xml"/>
     <entity-resource type="data" reader-name="seed" loader="main" location="data/ShopMaxSellerTypeData.xml"/>
     <entity-resource type="data" reader-name="seed" loader="main" location="data/ShopMaxSellerData.xml"/>
     <entity-resource type="data" reader-name="seed" loader="main" location="data/ShopMaxSellerVisualThemeData.xml"/>
@@ -47,7 +47,7 @@ under the License.
 
     <!-- service resources: model(s), eca(s) and group definitions -->
     <service-resource type="model" loader="main" location="servicedef/services.xml"/>
-    <!-- <service-resource type="eca" loader="main" location="servicedef/secas.xml"/> -->
+    <service-resource type="eca" loader="main" location="servicedef/secas.xml"/>
 
     <test-suite loader="main" location="testdef/ShopMaxSellerTests.xml"/>
 
@@ -59,7 +59,5 @@ under the License.
         location="webapp/shopmaxseller"
         base-permission=""
         mount-point="/shop">
-        <!-- <virtual-host host-name="tommy.shopmax.localhost"/>
-        <virtual-host host-name="shopmaxseller.ofbizdemo.com"/> -->
     </webapp>
 </ofbiz-component>

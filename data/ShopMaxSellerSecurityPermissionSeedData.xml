@@ -19,11 +19,5 @@ under the License.
 -->
 
 <entity-engine-xml>
-    <SecurityPermission description="View operations in the ShopMaxSeller Component." permissionId="SHOPMAXSELLER_VIEW"/>
-    <SecurityPermission description="Create operations in the ShopMaxSeller Component." permissionId="SHOPMAXSELLER_CREATE"/>
-    <SecurityPermission description="Update operations in the ShopMaxSeller Component." permissionId="SHOPMAXSELLER_UPDATE"/>
-    <SecurityPermission description="Delete operations in the ShopMaxSeller Component." permissionId="SHOPMAXSELLER_DELETE"/>
-    <SecurityPermission description="ALL operations in the ShopMaxSeller Component." permissionId="SHOPMAXSELLER_ADMIN"/>
-    
-    <SecurityGroupPermission groupId="SUPER" permissionId="SHOPMAXSELLER_ADMIN"/>
+
 </entity-engine-xml>

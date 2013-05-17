@@ -19,11 +19,5 @@ under the License.
 -->
 
 <entity-engine-xml>
-    <SecurityGroupPermission groupId="FULLADMIN" permissionId="SHOPMAXSELLER_ADMIN"/>
-    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="SHOPMAXSELLER_CREATE"/>
-    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="SHOPMAXSELLER_DELETE"/>
-    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="SHOPMAXSELLER_UPDATE"/>
-    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="SHOPMAXSELLER_VIEW"/>
-    <SecurityGroupPermission groupId="VIEWADMIN" permissionId="SHOPMAXSELLER_VIEW"/>
-    <SecurityGroupPermission groupId="BIZADMIN" permissionId="SHOPMAXSELLER_ADMIN"/>
+
 </entity-engine-xml>
