@@ -19,11 +19,6 @@ under the License.
 -->
 
 <entity-engine-xml>
-    <Party partyId="admin" partyTypeId="PERSON"/>
-    <Person firstName="THE" lastName="ADMINISTRATOR" middleName="PRIVILEGED" partyId="admin" personalTitle="Mr."/>
-    <UserLogin  userLoginId="admin" currentPassword="{SHA}47b56994cbc2b6d10aa1be30f70165adb305a41a" enabled="Y" hasLoggedOut="Y" partyId="admin" requirePasswordChange="N"/>
-    <UserLoginSecurityGroup groupId="SUPER" userLoginId="admin" fromDate="2013-04-01 00:00:00"/>
-    
     <Party partyId="SHOPMAX_SELLER" partyTypeId="PARTY_GROUP"/>
     
     <Facility facilityId="SellerWarehouse" facilityTypeId="WAREHOUSE" facilityName="ShopMax Seller" description="Warehouse exclusively for the Web Store" defaultInventoryItemTypeId="NON_SERIAL_INV_ITEM" ownerPartyId="SHOPMAX_SELLER"/>

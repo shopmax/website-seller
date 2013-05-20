@@ -22,4 +22,8 @@ under the License.
     <ProdCatalog prodCatalogId="SHOPMAX_CATALOG" catalogName="ShopMax Catalog" useQuickAdd="Y"/>
     
     <ProductStoreCatalog productStoreId="ShopMaxSellerStore" prodCatalogId="SHOPMAX_CATALOG" fromDate="2013-04-01 00:00:00" sequenceNum="1"/>
+    
+    <ProductCategory productCategoryId="SHOPMAX_BROWSE_ROOT" productCategoryTypeId="CATALOG_CATEGORY" categoryName="ShopMax Browse Root" description="ShopMax Catalog Primary Browse Root Category"/>
+    
+    <ProdCatalogCategory prodCatalogId="SHOPMAX_CATALOG" productCategoryId="SHOPMAX_BROWSE_ROOT" fromDate="2013-04-01 00:00:00" sequenceNum="1" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT"/>
 </entity-engine-xml>
