@@ -28,10 +28,10 @@ under the License.
         jdbcUri="jdbc:derby:shopmaxsellerolap;create=true" jdbcUsername="ofbiz" jdbcPassword="ofbiz"/>
     
     <!-- Front-End -->
-    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxseller.ofbizdemo.com" initialPath="/shop"/>
-    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxseller.localhost" initialPath="/shop"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.ofbizdemo.co.nz" initialPath="/shop"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.localhost" initialPath="/shop"/>
     
     <!-- Back-End -->
-    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxsellerbackend.ofbizdemo.com" initialPath="/catalog"/>
-    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxsellerbackend.localhost" initialPath="/catalog"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="backend.seller.shopmax.ofbizdemo.co.nz" initialPath="/catalog"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="backend.seller.shopmax.localhost" initialPath="/catalog"/>
 </entity-engine-xml>
