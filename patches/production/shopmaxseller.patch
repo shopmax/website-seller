@@ -1,16 +1,24 @@
 Index: hot-deploy/shopmaxseller/data/TenantData.xml
 ===================================================================
---- hot-deploy/shopmaxseller/data/TenantData.xml	(revision 266)
+--- hot-deploy/shopmaxseller/data/TenantData.xml	(revision 268)
 +++ hot-deploy/shopmaxseller/data/TenantData.xml	(working copy)
-@@ -23,9 +23,9 @@
+@@ -23,17 +23,13 @@
      <TenantComponent tenantId="shopmaxseller" componentName="shopmax" sequenceNum="01"/>
      <TenantComponent tenantId="shopmaxseller" componentName="shopmaxseller" sequenceNum="02"/>
      <TenantDataSource tenantId="shopmaxseller" entityGroupName="org.ofbiz"
 -        jdbcUri="jdbc:derby:shopmaxseller;create=true" jdbcUsername="ofbiz" jdbcPassword="ofbiz"/>
-+        jdbcUri="postgresql://127.0.0.1:5432/shopmaxseller" jdbcUsername="ofbiz" jdbcPassword="ofbiz"/>
++        jdbcUri="jdbc:postgresql://127.0.0.1:5432/shopmaxseller" jdbcUsername="ofbiz" jdbcPassword="ofbiz"/>
      <TenantDataSource tenantId="shopmaxseller" entityGroupName="org.ofbiz.olap"
 -        jdbcUri="jdbc:derby:shopmaxsellerolap;create=true" jdbcUsername="ofbiz" jdbcPassword="ofbiz"/>
-+        jdbcUri="postgresql://127.0.0.1:5432/shopmaxsellerolap" jdbcUsername="ofbiz" jdbcPassword="ofbiz"/>
++        jdbcUri="jdbc:postgresql://127.0.0.1:5432/shopmaxsellerolap" jdbcUsername="ofbiz" jdbcPassword="ofbiz"/>
      
      <!-- Front-End -->
      <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.co.nz" initialPath="/shop"/>
+-    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.ofbizdemo.co.nz" initialPath="/shop"/>
+-    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.localhost" initialPath="/shop"/>
+     
+     <!-- Back-End -->
+     <TenantDomainName tenantId="shopmaxseller" domainName="backend.seller.shopmax.co.nz" initialPath="/catalog"/>
+-    <TenantDomainName tenantId="shopmaxseller" domainName="backend.seller.shopmax.ofbizdemo.co.nz" initialPath="/catalog"/>
+-    <TenantDomainName tenantId="shopmaxseller" domainName="backend.seller.shopmax.localhost" initialPath="/catalog"/>
+ </entity-engine-xml>
