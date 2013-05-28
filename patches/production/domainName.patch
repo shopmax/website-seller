@@ -12,6 +12,6 @@ Index: hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml
 -        secureContentPrefix="https://backend.seller.shopmax.localhost:8443"/>
 +        httpHost="seller.shopmax.co.nz" httpPort="80"
 +        httpsHost="seller.shopmax.co.nz" httpsPort="443"
-+        standardContentPrefix="http://backend.seller.shopmax.co.nz"
-+        secureContentPrefix="https://backend.seller.shopmax.co.nz"/>
++        standardContentPrefix="http://backend.shopmax.co.nz"
++        secureContentPrefix="https://backend.shopmax.co.nz"/>
  </entity-engine-xml>
