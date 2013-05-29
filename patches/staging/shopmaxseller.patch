@@ -20,3 +20,15 @@ Index: hot-deploy/shopmaxseller/script/org/ofbiz/shopmaxseller/shopmaxseller/Sho
              <set field="runTenantServiceInMap.serviceName" value="updateProduct"/>
              <set field="runTenantServiceInMap.serviceParameters" from-field="updateProductMap"/>
              <call-service service-name="runTenantService" in-map-name="runTenantServiceInMap"/>
+Index: hot-deploy/shopmaxseller/ofbiz-component.xml
+===================================================================
+--- hot-deploy/shopmaxseller/ofbiz-component.xml	(revision 299)
++++ hot-deploy/shopmaxseller/ofbiz-component.xml	(working copy)
+@@ -58,6 +58,6 @@
+         server="default-server"
+         location="webapp/shopmaxseller"
+         base-permission=""
+-        mount-point="/">
++        mount-point="/shop">
+     </webapp>
+ </ofbiz-component>

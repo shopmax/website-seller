@@ -1,6 +1,6 @@
 Index: hot-deploy/shopmaxseller/data/TenantData.xml
 ===================================================================
---- hot-deploy/shopmaxseller/data/TenantData.xml	(revision 293)
+--- hot-deploy/shopmaxseller/data/TenantData.xml	(revision 303)
 +++ hot-deploy/shopmaxseller/data/TenantData.xml	(working copy)
 @@ -23,17 +23,13 @@
      <TenantComponent tenantId="shopmaxseller" componentName="shopmax" sequenceNum="01"/>
@@ -14,7 +14,7 @@ Index: hot-deploy/shopmaxseller/data/TenantData.xml
      
      <!-- Front-End -->
      <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.co.nz" initialPath="/"/>
--    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxseller.ofbizdemo.com" initialPath="/"/>
+-    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxseller.ofbizdemo.com" initialPath="/shop"/>
 -    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.localhost" initialPath="/"/>
      
      <!-- Back-End -->
