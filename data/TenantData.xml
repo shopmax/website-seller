@@ -29,7 +29,7 @@ under the License.
     
     <!-- Front-End -->
     <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.co.nz" initialPath="/"/>
-    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxseller.ofbizdemo.com" initialPath="/"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxseller.ofbizdemo.com" initialPath="/shop"/>
     <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.localhost" initialPath="/"/>
     
     <!-- Back-End -->
