@@ -29,11 +29,11 @@ under the License.
     
     <!-- Front-End -->
     <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.co.nz" initialPath="/"/>
-    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.ofbizdemo.com" initialPath="/"/>
-    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.localhost" initialPath="/"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxseller.ofbizdemo.com" initialPath="/"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxseller.localhost" initialPath="/"/>
     
     <!-- Back-End -->
-    <TenantDomainName tenantId="shopmaxseller" domainName="sellerbackend.shopmax.co.nz" initialPath="/catalog"/>
-    <TenantDomainName tenantId="shopmaxseller" domainName="sellerbackend.shopmax.ofbizdemo.com" initialPath="/catalog"/>
-    <TenantDomainName tenantId="shopmaxseller" domainName="sellerbackend.shopmax.localhost" initialPath="/catalog"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxsellerbackend.co.nz" initialPath="/catalog"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxsellerbackend.ofbizdemo.com" initialPath="/catalog"/>
+    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxsellerbackend.localhost" initialPath="/catalog"/>
 </entity-engine-xml>
