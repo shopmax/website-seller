@@ -58,6 +58,6 @@ under the License.
         server="default-server"
         location="webapp/shopmaxseller"
         base-permission=""
-        mount-point="/shop">
+        mount-point="/">
     </webapp>
 </ofbiz-component>
