@@ -1,6 +1,6 @@
 Index: hot-deploy/shopmaxseller/data/TenantData.xml
 ===================================================================
---- hot-deploy/shopmaxseller/data/TenantData.xml	(revision 268)
+--- hot-deploy/shopmaxseller/data/TenantData.xml	(revision 293)
 +++ hot-deploy/shopmaxseller/data/TenantData.xml	(working copy)
 @@ -23,17 +23,13 @@
      <TenantComponent tenantId="shopmaxseller" componentName="shopmax" sequenceNum="01"/>
@@ -13,12 +13,12 @@ Index: hot-deploy/shopmaxseller/data/TenantData.xml
 +        jdbcUri="jdbc:postgresql://127.0.0.1:5432/shopmaxsellerolap" jdbcUsername="ofbiz" jdbcPassword="ofbiz"/>
      
      <!-- Front-End -->
-     <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.co.nz" initialPath="/shop"/>
--    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.ofbizdemo.co.nz" initialPath="/shop"/>
--    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.localhost" initialPath="/shop"/>
+     <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.co.nz" initialPath="/"/>
+-    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxseller.ofbizdemo.com" initialPath="/"/>
+-    <TenantDomainName tenantId="shopmaxseller" domainName="seller.shopmax.localhost" initialPath="/"/>
      
      <!-- Back-End -->
      <TenantDomainName tenantId="shopmaxseller" domainName="backend.seller.shopmax.co.nz" initialPath="/catalog"/>
--    <TenantDomainName tenantId="shopmaxseller" domainName="backend.seller.shopmax.ofbizdemo.co.nz" initialPath="/catalog"/>
+-    <TenantDomainName tenantId="shopmaxseller" domainName="shopmaxsellerbackend.ofbizdemo.com" initialPath="/catalog"/>
 -    <TenantDomainName tenantId="shopmaxseller" domainName="backend.seller.shopmax.localhost" initialPath="/catalog"/>
  </entity-engine-xml>

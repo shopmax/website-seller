@@ -1,17 +1,17 @@
 Index: hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml
 ===================================================================
---- hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml	(revision 286)
+--- hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml	(revision 296)
 +++ hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml	(working copy)
 @@ -36,8 +36,8 @@
          visualThemeId="SHOPMAX_THEME" prodSearchExcludeVariants="Y" autoApproveInvoice="Y" shipIfCaptureFails="Y" autoApproveOrder="Y" showOutOfStockProducts="N" usePrimaryEmailUsername="Y" autoApproveReviews="Y"/>
      
      <WebSite webSiteId="SHOPMAX_SELLER" siteName="ShopMax Seller Web Site" productStoreId="ShopMaxSellerStore"
--        httpHost="shopmaxseller.localhost" httpPort="8080"
--        httpsHost="shopmaxseller.localhost" httpsPort="8443"
--        standardContentPrefix="http://shopmaxsellerbackend.localhost:8080"
--        secureContentPrefix="https://shopmaxsellerbackend.localhost:8443"/>
+-        httpHost="seller.shopmax.localhost" httpPort="8080"
+-        httpsHost="seller.shopmax.localhost" httpsPort="8443"
+-        standardContentPrefix="http://backend.shopmax.localhost:8080"
+-        secureContentPrefix="https://backend.shopmax.localhost:8443"/>
 +        httpHost="shopmaxseller.ofbizdemo.com" httpPort="80"
 +        httpsHost="shopmaxseller.ofbizdemo.com" httpsPort="443"
-+        standardContentPrefix="http://shopmaxsellerbackend.ofbizdemo.com"
-+        secureContentPrefix="https://shopmaxsellerbackend.ofbizdemo.com"/>
++        standardContentPrefix="http://shopmaxbackend.ofbizdemo.com"
++        secureContentPrefix="https://shopmaxbackend.ofbizdemo.com"/>
  </entity-engine-xml>
