@@ -1,6 +1,6 @@
 Index: hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml
 ===================================================================
---- hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml	(revision 296)
+--- hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml	(revision 464)
 +++ hot-deploy/shopmaxseller/data/ShopMaxSellerData.xml	(working copy)
 @@ -36,8 +36,8 @@
          visualThemeId="SHOPMAX_THEME" prodSearchExcludeVariants="Y" autoApproveInvoice="Y" shipIfCaptureFails="Y" autoApproveOrder="Y" showOutOfStockProducts="N" usePrimaryEmailUsername="Y" autoApproveReviews="Y"/>

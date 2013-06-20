@@ -1,6 +1,6 @@
 Index: hot-deploy/shopmaxseller/data/TenantData.xml
 ===================================================================
---- hot-deploy/shopmaxseller/data/TenantData.xml	(revision 303)
+--- hot-deploy/shopmaxseller/data/TenantData.xml	(revision 464)
 +++ hot-deploy/shopmaxseller/data/TenantData.xml	(working copy)
 @@ -23,17 +23,13 @@
      <TenantComponent tenantId="shopmaxseller" componentName="shopmax" sequenceNum="01"/>

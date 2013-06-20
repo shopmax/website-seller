@@ -1,28 +1,6 @@
-Index: hot-deploy/shopmaxseller/script/org/ofbiz/shopmaxseller/shopmaxseller/ShopMaxSellerServices.xml
-===================================================================
---- hot-deploy/shopmaxseller/script/org/ofbiz/shopmaxseller/shopmaxseller/ShopMaxSellerServices.xml	(revision 113)
-+++ hot-deploy/shopmaxseller/script/org/ofbiz/shopmaxseller/shopmaxseller/ShopMaxSellerServices.xml	(working copy)
-@@ -51,7 +51,7 @@
-             productMap.remove('lastUpdatedTxStamp');
-             if (productMap) return productMap;}" type="Map"/>
-             <set field="createProductMap.userLogin" from-field="sysUserLogin"/>
--            <set field="runTenantServiceInMap.tenantId" value="default"/>
-+            <set field="runTenantServiceInMap.tenantId" value="shopmax"/>
-             <set field="runTenantServiceInMap.serviceName" value="createProduct"/>
-             <set field="runTenantServiceInMap.serviceParameters" from-field="createProductMap"/>
-             <call-service service-name="runTenantService" in-map-name="runTenantServiceInMap"/>
-@@ -78,7 +78,7 @@
-             productMap.remove('lastUpdatedTxStamp');
-             if (productMap) return productMap;}" type="Map"/>
-             <set field="updateProductMap.userLogin" from-field="sysUserLogin"/>
--            <set field="runTenantServiceInMap.tenantId" value="default"/>
-+            <set field="runTenantServiceInMap.tenantId" value="shopmax"/>
-             <set field="runTenantServiceInMap.serviceName" value="updateProduct"/>
-             <set field="runTenantServiceInMap.serviceParameters" from-field="updateProductMap"/>
-             <call-service service-name="runTenantService" in-map-name="runTenantServiceInMap"/>
 Index: hot-deploy/shopmaxseller/ofbiz-component.xml
 ===================================================================
---- hot-deploy/shopmaxseller/ofbiz-component.xml	(revision 299)
+--- hot-deploy/shopmaxseller/ofbiz-component.xml	(revision 464)
 +++ hot-deploy/shopmaxseller/ofbiz-component.xml	(working copy)
 @@ -58,6 +58,6 @@
          server="default-server"

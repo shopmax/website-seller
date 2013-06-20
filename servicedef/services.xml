@@ -28,16 +28,4 @@ under the License.
         invoke="checkPermissionCreateCatalogAndCategory" auth="true">
         <description>Check Permission to Create Catalog and Category</description>
     </service>
-    
-    <service name="createProductToShopMax" engine="simple" 
-            location="component://shopmaxseller/script/org/ofbiz/shopmaxseller/shopmaxseller/ShopMaxSellerServices.xml" invoke="createProductToShopMax" auth="true">
-        <description>Create Product To ShopMax</description>
-        <attribute name="productId" mode="IN" type="String" optional="false"/>
-    </service>
-    
-    <service name="updateProductToShopMax" engine="simple" 
-            location="component://shopmaxseller/script/org/ofbiz/shopmaxseller/shopmaxseller/ShopMaxSellerServices.xml" invoke="updateProductToShopMax" auth="true">
-        <description>Update Product To ShopMax</description>
-        <attribute name="productId" mode="IN" type="String" optional="false"/>
-    </service>
 </services>
